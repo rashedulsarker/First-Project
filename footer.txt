@@ -1,0 +1,133 @@
+@media(max-width: 1330px){
+  header #branding, header nav, header nav li, #newslater h1, #newslater form, #boxes .box {
+    float: none;
+    text-align:center;
+   
+  }
+  header{
+    padding-bottom: 20px;
+  }
+  #newslater .button_1{
+    display: block;
+    width: 100%;
+    
+  }
+  #newslater form input[type="email"]{
+  
+    width:100%;
+    margin-bottom: 5px;
+  }
+  #boxes .box {
+    width: 100%;
+  }
+  /* .footer {
+   display: none;    
+  } */
+
+  .footer .footer .footer-content{
+    width: 50%;
+    margin-bottom: 30px;
+
+  }
+  #showcase{
+    display: none;
+  }
+
+  #bosex .container .box img{
+
+    width: 100%;
+    height: auto;
+  }
+  
+  } */
+  @media(max-width: 768px){
+    header #branding, header nav, header nav li, #newslater h1, #newslater form, #boxes .box {
+      float: none;
+      text-align:center;
+      /* width: 100%; */
+     
+    }
+    header{
+      padding-bottom: 20px;
+    }
+    #newslater .button_1{
+      display: block;
+      width: 100%;
+      
+    }
+    #newslater form input[type="email"]{
+    
+      width:100%;
+      margin-bottom: 5px;
+    }
+    #boxes .box img{
+      width: 100%;
+    }
+    .footer .footer-content{
+     width: 100%;
+      
+    }
+    #showcase{
+      display: none;
+    }
+    .footer .footer-content .contact, .footer .footer-content .links{
+
+      display: none;
+    }
+    }
+    @media(max-width: 991px){
+      header #branding, header nav, header nav li, #newslater h1, #newslater form, #boxes .box {
+        float: none;
+        text-align:center;
+        /* width: 100%; */
+       
+      }
+      header{
+        padding-bottom: 20px;
+      }
+      #newslater .button_1{
+        display: block;
+        width: 100%;
+        
+      }
+      #newslater form input[type="email"]{
+      
+        width:100%;
+        margin-bottom: 5px;
+      }
+      #boxes .box{
+        width: 100%;
+      }
+      /* .footer {
+       display: none;    
+      } */
+    
+      
+      #showcase{
+        display: none;
+      }
+    
+      #bosex .container .box img{
+    
+        width: 100%;
+        height: auto;
+      }
+
+      footer{
+        padding: 40px;
+      }
+
+
+
+      footer .footer .footer-content{
+        /* width: 50%;
+        margin-bottom: 30px; */
+        flex-direction: column;
+    
+      }
+
+      .footer .footer-bottom{
+        flex-direction: row;
+        padding: 2rem;
+      }
+      }
